@@ -313,10 +313,6 @@
   }
 }
 
-.card__icon-button:focus {
-  outline: none;
-}
-
 .card__icon-button:focus-visible {
   border: 2px solid var(--main-color, #000);
   transition-duration: 0.3s;
