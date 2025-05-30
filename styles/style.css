@@ -83,6 +83,35 @@
   overflow: hidden;
 }
 
+.article__img--blur {
+  filter: blur(7px);
+}
+
+.article__img--brightness {
+  filter: brightness(4);
+}
+
+.article__img--saturate {
+  filter: saturate(2);
+}
+
+.article__img--grayscale {
+  filter: grayscale(1);
+}
+
+.article__img--hue-rotate {
+  filter: hue-rotate(180deg);
+}
+
+.article__img--mix {
+  filter: blur(5px) invert(100%);
+}
+
+.article__img--sepia {
+  filter: sepia(1);
+}
+
+
 .img-label {
   position: absolute;
   right: 25px;
