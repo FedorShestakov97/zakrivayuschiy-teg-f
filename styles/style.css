@@ -200,17 +200,6 @@
   cursor: pointer;
 }
 
-.button::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: var(--main-color, #000);
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
-  transform: scaleX(0);
-  transform-origin: left center;
-}
-
 .button__text {
   position: relative;
   z-index: 1;
