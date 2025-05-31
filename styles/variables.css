@@ -18,7 +18,7 @@
 
   --card-inline-size: clamp(min(100%, 375px), 50vw, 700px);
   --font: "Inter-Variable";
-  --font-accent: "PressStart2P-Regular";
+  --font-accent: "PressStart2P";
   --main-color: #000;
   --article-p: 1.125rem;
   --article-font-weight: 400;
